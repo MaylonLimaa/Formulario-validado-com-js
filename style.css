@@ -1,0 +1,26 @@
+div.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 40%;
+    padding: 10px 20px 0px 20px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+input {
+    background-color: rgb(82, 80, 80);
+    border: 2px solid rgb(255, 166, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    height: 40px;
+    width: 300px;
+    box-shadow: 10px 6px 5px black;
+}
+
+input[type="submit"] {
+    width: 150px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    box-shadow: 10px 6px 5px black;
+}
